@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(226, 226, 226);
+    margin: 0px;
+}
+#Capa{
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.Butom{
+    color: black;
+    padding-top: 30px;
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    text-align: center;
+    height: 40px;   
+    
+}
+.ButomCardápio{
+    background-color: white;
+    width: 250px;
+    height: 40px;
+    font-weight: bold;
+    border: none;
+    border-radius: 1000px;
+    color: rgb(0, 0, 0);
+    transition: all 0.6 ease-in-out 0s;
+    font-size: 20px;   
+}
+.ButomCardápio:hover{
+    text-decoration: none;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    /* transform: scale(1.2); */
+    box-shadow: 0 0 0px;
+    cursor: grab;
+}
+.Cabeça{
+    position: static;
+    /* text-shadow: 3px 3px #ffffff, -3px -3px #ffffff, 3px -3px #ffffff, -3px 3px #ffffff; */
+    font-size: 50px;
+    display: flex;
+    /* justify-content:flex-start; */
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #000000;
+    width: 100%;
+    height: 80px
+}
+.Cabeça2{
+    background-image: linear-gradient(to bottom, #000000, #535353);
+    /* background-color: #464646; */
+    width: 100%;
+    height: 50px
+}
+.Cabeça3{
+    width: 100%;
+    height: 5px;
+}
+.Tabela1{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
